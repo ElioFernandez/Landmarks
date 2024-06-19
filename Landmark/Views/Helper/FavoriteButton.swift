@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  FavoriteButton.swift
 //  Landmark
 //
 //  Created by Elio Fernandez on 19/06/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct FavoriteButton: View {
     @Binding var isSet: Bool
     
     var body: some View {
@@ -22,5 +22,5 @@ struct SwiftUIView: View {
 }
 
 #Preview {
-    SwiftUIView(isSet: .constant(true))
+    FavoriteButton(isSet: .constant(true))
 }

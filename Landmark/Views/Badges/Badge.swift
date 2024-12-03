@@ -17,7 +17,6 @@ struct Badge: View {
         .opacity(0.5)
     }
 
-    
     var body: some View {
         ZStack {
             BadgeBackground()
